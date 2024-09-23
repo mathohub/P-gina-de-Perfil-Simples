@@ -1,0 +1,57 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Centralizar o conteúdo */
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+/* Estilizar o texto */
+h1, h2 {
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Estilo da imagem */
+img {
+    width: 200px; /* Ajuste o tamanho conforme desejar */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Estilizar links de redes sociais */
+.social-media a {
+    color: #4CAF50;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
